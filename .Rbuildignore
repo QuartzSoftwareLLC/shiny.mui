@@ -1,0 +1,13 @@
+^LICENSE\.md$
+^\.Rproj\.user$
+^js$
+^.*\.Rproj$
+^install\.sh$
+^inst/examples/dashboard/rsconnect/
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^\.github$
+^doc$
+^data-raw$
+^scrape-docs/
