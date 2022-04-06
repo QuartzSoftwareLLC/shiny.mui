@@ -24,7 +24,7 @@ const SelectTemp = ({ value, setValue, options, ...props }) => (
   </Mui.FormControl>
 );
 
-export const Select = InputAdapter(SelectTemp, (value, setValue) => ({
+export const Select = InputAdapter(Mui.Select, (value, setValue) => ({
   value: value,
   onChange: (e) => setValue(e.target.value),
 }));

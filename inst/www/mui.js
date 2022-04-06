@@ -67378,7 +67378,7 @@ var SelectTemp = function SelectTemp(_ref) {
   })));
 };
 
-var Select = (0,_shiny_react__WEBPACK_IMPORTED_MODULE_0__.InputAdapter)(SelectTemp, function (value, setValue) {
+var Select = (0,_shiny_react__WEBPACK_IMPORTED_MODULE_0__.InputAdapter)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], function (value, setValue) {
   return {
     value: value,
     onChange: function onChange(e) {

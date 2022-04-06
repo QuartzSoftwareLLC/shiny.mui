@@ -6,7 +6,7 @@ library(magrittr)
 if (interactive()) {
   shinyApp(
     ui = div(
-      Select.shinyInput("text", options = make_options("first", "second"), value = "first", label = "Select"),
+      Select.shinyInput("text", value = 5, MenuItem(value = 5, 5)),
       textOutput("textValue")
     ),
     server = function(input, output) {
