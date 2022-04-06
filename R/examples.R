@@ -4,7 +4,7 @@ component_example <- function(...) {
         options(shiny.launch.browser = FALSE)
 
         shiny::shinyApp(
-            ui = tagList(...),
+            ui = shiny::tagList(...),
             server = function(input, output) {}
         )
     }

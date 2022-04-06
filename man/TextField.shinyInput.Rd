@@ -16,7 +16,7 @@ library(shiny)
 if (interactive()) {
   shinyApp(
     ui = div(
-      TextField.shinyInput("text", value = "go"),
+      TextField.shinyInput("text", fullWidth = T, value = "go"),
       textOutput("textValue")
     ),
     server = function(input, output) {

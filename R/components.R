@@ -54,10 +54,6 @@ ListItem <- component("ListItem")
 #' @example inst/examples/List.R
 ListItemText <- component("ListItemText")
 
-#' Theme provider
-#' @export
-ThemeProvider <- component("ThemeProvider", module = "@/shiny.mui")
-
 #' FormControl
 #' @export
 FormControl <- component("FormControl")
