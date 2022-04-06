@@ -34,11 +34,26 @@ Grid <- component("Grid")
 #' @example inst/examples/Box.R
 Box <- component("Box")
 
+#' @export
+#' @rdname MenuItem
+MenuItem <- component("MenuItem")
+
+#' @export
+#' @rdname List
+List <- component("List")
+
+#' @export
+#' @rdname ListItem
+ListItem <- component("ListItem")
+
+#' @export
+#' @rdname ListItemText
+ListItemText <- component("ListItemText")
+
 
 #' @export
 #' @rdname ThemeProvider
 ThemeProvider <- component("ThemeProvider", module = "@/shiny.mui")
 
-#' @export
-#' @rdname MenuItem
-MenuItem <- component("MenuItem", module = "@/shiny.mui")
+
+# todo use normal select
