@@ -9,50 +9,53 @@ component <- function(name, module = "@mui/material") {
   )
 }
 
+#' Typography
 #' @export
-#' @rdname Typography
 #' @example inst/examples/Typography.R
 Typography <- component("Typography")
 
+#' Card
 #' @export
-#' @rdname Card
 #' @example inst/examples/Card.R
 Card <- component("Card")
 
+#' CardContent
 #' @export
-#' @rdname CardContent
 #' @example inst/examples/Card.R
 CardContent <- component("CardContent")
 
+#' Grid
 #' @export
-#' @rdname Grid
 #' @example inst/examples/Grid.R
 Grid <- component("Grid")
 
+#' Box
 #' @export
-#' @rdname Box
 #' @example inst/examples/Box.R
 Box <- component("Box")
 
+#' MenuItem
 #' @export
-#' @rdname MenuItem
+#' @name MenuItem
 MenuItem <- component("MenuItem")
 
+#' List
 #' @export
-#' @rdname List
+#' @example inst/examples/List.R
 List <- component("List")
 
+#' ListItem
 #' @export
-#' @rdname ListItem
+#' @example inst/examples/List.R
 ListItem <- component("ListItem")
 
+#' ListItemText
 #' @export
-#' @rdname ListItemText
+#' @example inst/examples/List.R
 ListItemText <- component("ListItemText")
 
-
+#' Theme provider
 #' @export
-#' @rdname ThemeProvider
 ThemeProvider <- component("ThemeProvider", module = "@/shiny.mui")
 
 

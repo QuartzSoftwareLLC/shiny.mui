@@ -14,20 +14,18 @@ input <- function(name, defaultValue = "") {
   )
 }
 
+#' Button
 #' @export
 #' @example inst/examples/Button.R
-#' @rdname Button
 Button.shinyInput <- button("Button")
 
 
-
+#' TextField
 #' @export
 #' @example inst/examples/TextField.R
-#' @rdname TextField
 TextField.shinyInput <- input("TextField")
 
-
+#' Select
 #' @export
 #' @example inst/examples/TextField.R
-#' @rdname TextField
 Select.shinyInput <- input("Select")
