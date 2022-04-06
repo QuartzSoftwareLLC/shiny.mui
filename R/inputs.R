@@ -25,3 +25,9 @@ Button.shinyInput <- button("Button")
 #' @example inst/examples/TextField.R
 #' @rdname TextField
 TextField.shinyInput <- input("TextField")
+
+
+#' @export
+#' @example inst/examples/TextField.R
+#' @rdname TextField
+Select.shinyInput <- input("Select")

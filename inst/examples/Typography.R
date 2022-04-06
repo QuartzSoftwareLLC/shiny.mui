@@ -1,4 +1,5 @@
 library(shiny.mui)
+library(shiny)
 
 component_example(tagList(
   Typography(variant="h1", children="H1"),

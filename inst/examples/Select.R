@@ -1,10 +1,12 @@
 library(shiny.mui)
 library(shiny)
+library(magrittr)
+
 
 if (interactive()) {
   shinyApp(
     ui = div(
-      TextField.shinyInput("text", value = "go"),
+      Select.shinyInput("text", options = make_options("first", "second"), value = "first", label = "Select"),
       textOutput("textValue")
     ),
     server = function(input, output) {

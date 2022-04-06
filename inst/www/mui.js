@@ -67282,9 +67282,48 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./src/inputs.tsx":
+/***/ "./src/ThemeProvider.jsx":
+/*!*******************************!*\
+  !*** ./src/ThemeProvider.jsx ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ ThemeProvider)
+/* harmony export */ });
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/system/esm/ThemeProvider/ThemeProvider.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/styles/createTheme.js");
+
+
+function ThemeProvider(_ref) {
+  var children = _ref.children;
+  return /*#__PURE__*/React.createElement(_mui_material__WEBPACK_IMPORTED_MODULE_0__["default"], {
+    theme: (0,_mui_material__WEBPACK_IMPORTED_MODULE_1__["default"])({
+      components: {
+        MuiTextField: {
+          defaultProps: {
+            size: 'small',
+            fullWidth: true
+          }
+        },
+        MuiSelect: {
+          defaultProps: {
+            size: 'small',
+            fullWidth: true
+          }
+        }
+      }
+    })
+  }, children);
+}
+
+/***/ }),
+
+/***/ "./src/inputs.jsx":
 /*!************************!*\
-  !*** ./src/inputs.tsx ***!
+  !*** ./src/inputs.jsx ***!
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -67292,20 +67331,58 @@ if (false) {} else {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Button": () => (/* binding */ Button),
+/* harmony export */   "Select": () => (/* binding */ Select),
 /* harmony export */   "TextField": () => (/* binding */ TextField)
 /* harmony export */ });
 /* harmony import */ var _shiny_react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/shiny.react */ "@/shiny.react");
 /* harmony import */ var _shiny_react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_shiny_react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Button/Button.js");
 /* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TextField/TextField.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/FormControl/FormControl.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/InputLabel/InputLabel.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Select/Select.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/MenuItem/MenuItem.js");
+var _excluded = ["value", "setValue", "options"];
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
 
 
 var Button = (0,_shiny_react__WEBPACK_IMPORTED_MODULE_0__.ButtonAdapter)(_mui_material__WEBPACK_IMPORTED_MODULE_1__["default"]);
 var TextField = (0,_shiny_react__WEBPACK_IMPORTED_MODULE_0__.InputAdapter)(_mui_material__WEBPACK_IMPORTED_MODULE_2__["default"], function (value, setValue) {
   return {
     value: value,
-    onChange: function onChange(e, v) {
-      return setValue(v);
+    onChange: function onChange(e) {
+      console.log('value', value);
+      setValue(e.target.value);
+    }
+  };
+});
+
+var SelectTemp = function SelectTemp(_ref) {
+  var value = _ref.value,
+      setValue = _ref.setValue,
+      options = _ref.options,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return /*#__PURE__*/React.createElement(_mui_material__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    fullWidth: true
+  }, /*#__PURE__*/React.createElement(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    id: "demo-simple-select-label"
+  }, props === null || props === void 0 ? void 0 : props.label), /*#__PURE__*/React.createElement(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], props, options.map(function (option) {
+    return /*#__PURE__*/React.createElement(_mui_material__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      value: option.value
+    }, option.label);
+  })));
+};
+
+var Select = (0,_shiny_react__WEBPACK_IMPORTED_MODULE_0__.InputAdapter)(SelectTemp, function (value, setValue) {
+  return {
+    value: value,
+    onChange: function onChange(e) {
+      return setValue(e.target.value);
     }
   };
 });
@@ -68679,12 +68756,14 @@ var __webpack_exports__ = {};
   !*** ./src/index.js ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _inputs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./inputs */ "./src/inputs.tsx");
+/* harmony import */ var _inputs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./inputs */ "./src/inputs.jsx");
+/* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ThemeProvider */ "./src/ThemeProvider.jsx");
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -68696,7 +68775,9 @@ window.jsmodule = _objectSpread(_objectSpread({}, window.jsmodule), {}, {
   '@/Hello': {
     Hello: Hello
   },
-  '@/shiny.mui': _inputs__WEBPACK_IMPORTED_MODULE_0__,
+  '@/shiny.mui': _objectSpread(_objectSpread({}, _inputs__WEBPACK_IMPORTED_MODULE_0__), {}, {
+    ThemeProvider: _ThemeProvider__WEBPACK_IMPORTED_MODULE_1__["default"]
+  }),
   '@mui/material': __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/index.js")
 });
 })();

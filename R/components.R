@@ -1,8 +1,8 @@
 
 
-component <- function(name) {
+component <- function(name, module = "@mui/material") {
   function(...) shiny.react::reactElement(
-    module = "@mui/material",
+    module = module,
     name = name,
     props = shiny.react::asProps(...),
     deps = muiDependency()
@@ -33,3 +33,12 @@ Grid <- component("Grid")
 #' @rdname Box
 #' @example inst/examples/Box.R
 Box <- component("Box")
+
+
+#' @export
+#' @rdname ThemeProvider
+ThemeProvider <- component("ThemeProvider", module = "@/shiny.mui")
+
+#' @export
+#' @rdname MenuItem
+MenuItem <- component("MenuItem", module = "@/shiny.mui")

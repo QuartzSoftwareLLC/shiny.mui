@@ -1,4 +1,5 @@
 library(shiny.mui)
+library(shiny)
 
 component_example(tagList(
   Grid(container = T, spacing = 2, children = tagList(
