@@ -7,7 +7,7 @@
 Button.shinyInput(inputId, ...)
 }
 \description{
-Button
+Visit the documentation at https://mui.com/api/Button/ for more information.
 }
 \examples{
 library(shiny.mui)

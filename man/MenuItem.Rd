@@ -7,5 +7,5 @@
 MenuItem(...)
 }
 \description{
-MenuItem
+Visit the documentation at https://mui.com/api/Menu-Item/ for more information.
 }

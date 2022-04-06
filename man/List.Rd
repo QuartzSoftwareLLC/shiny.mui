@@ -7,7 +7,7 @@
 List(...)
 }
 \description{
-List
+Visit the documentation at https://mui.com/api/List/ for more information.
 }
 \examples{
 library(shiny)

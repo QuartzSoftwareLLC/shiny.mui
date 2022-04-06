@@ -7,7 +7,7 @@
 TextField.shinyInput(inputId, ..., value = defaultValue)
 }
 \description{
-TextField
+Visit the documentation at https://mui.com/api/Text-Field/ for more information.
 }
 \examples{
 library(shiny.mui)
@@ -16,7 +16,7 @@ library(shiny)
 if (interactive()) {
   shinyApp(
     ui = div(
-      TextField.shinyInput("text", fullWidth = T, value = "go"),
+      TextField.shinyInput("text", fullWidth = T, value = "go", variant="standard", multiline = T),
       textOutput("textValue")
     ),
     server = function(input, output) {

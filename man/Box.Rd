@@ -7,7 +7,7 @@
 Box(...)
 }
 \description{
-Box
+Visit the documentation at https://mui.com/api/Box/ for more information.
 }
 \examples{
 library(shiny.mui)

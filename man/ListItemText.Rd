@@ -7,7 +7,7 @@
 ListItemText(...)
 }
 \description{
-ListItemText
+Visit the documentation at https://mui.com/api/List-Item-Text/ for more information.
 }
 \examples{
 library(shiny)

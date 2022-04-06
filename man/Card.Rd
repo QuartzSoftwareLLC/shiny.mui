@@ -7,7 +7,7 @@
 Card(...)
 }
 \description{
-Card
+Visit the documentation at https://mui.com/api/Card/ for more information.
 }
 \examples{
 library(shiny.mui)

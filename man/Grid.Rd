@@ -7,7 +7,7 @@
 Grid(...)
 }
 \description{
-Grid
+Visit the documentation at https://mui.com/api/Grid/ for more information.
 }
 \examples{
 library(shiny.mui)

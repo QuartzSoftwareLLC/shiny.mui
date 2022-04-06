@@ -7,5 +7,5 @@
 FormControl(...)
 }
 \description{
-FormControl
+Visit the documentation at https://mui.com/api/Form-Control/ for more information.
 }

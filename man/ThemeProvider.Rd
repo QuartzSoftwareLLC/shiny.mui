@@ -7,5 +7,5 @@
 ThemeProvider(...)
 }
 \description{
-ThemeProvider
+Visit the documentation at https://mui.com/api/Theme-Provider/ for more information.
 }

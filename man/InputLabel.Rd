@@ -7,5 +7,5 @@
 InputLabel(...)
 }
 \description{
-InputLabel
+Visit the documentation at https://mui.com/api/Input-Label/ for more information.
 }

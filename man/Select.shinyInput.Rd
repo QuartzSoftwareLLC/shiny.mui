@@ -7,16 +7,18 @@
 Select.shinyInput(inputId, ..., value = defaultValue)
 }
 \description{
-Select
+Visit the documentation at https://mui.com/api/Select/ for more information.
 }
 \examples{
 library(shiny.mui)
 library(shiny)
+library(magrittr)
+
 
 if (interactive()) {
   shinyApp(
     ui = div(
-      TextField.shinyInput("text", fullWidth = T, value = "go"),
+      Select.shinyInput("text", value = 5,fullWidth = T, MenuItem(value = 5, 5)),
       textOutput("textValue")
     ),
     server = function(input, output) {
