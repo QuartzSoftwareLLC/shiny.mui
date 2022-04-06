@@ -61,3 +61,7 @@ FormControl <- component("FormControl")
 #' InputLabel
 #' @export
 InputLabel <- component("InputLabel")
+
+#' ThemeProvider
+#' @export
+ThemeProvider <- component("ThemeProvider", module = "@/shiny.mui")
