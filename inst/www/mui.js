@@ -67308,6 +67308,11 @@ function ThemeProvider(_ref) {
             fullWidth: true
           }
         },
+        MuiFormControl: {
+          defaultProps: {
+            fullWidth: true
+          }
+        },
         MuiSelect: {
           defaultProps: {
             size: 'small',

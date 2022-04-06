@@ -12,6 +12,11 @@ export default function ThemeProvider({ children }) {
               fullWidth: true,
             },
           },
+          MuiFormControl: {
+            defaultProps: {
+              fullWidth: true,
+            },
+          },
           MuiSelect: {
             defaultProps: {
               size: 'small',

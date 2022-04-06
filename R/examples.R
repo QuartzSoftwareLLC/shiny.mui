@@ -1,10 +1,10 @@
 #' @export
-component_example <- function(ui) {
+component_example <- function(...) {
     if (interactive()) {
         options(shiny.launch.browser = FALSE)
 
         shiny::shinyApp(
-            ui = ui,
+            ui = tagList(...),
             server = function(input, output) {}
         )
     }
