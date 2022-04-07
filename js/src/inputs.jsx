@@ -11,18 +11,7 @@ export const TextField = InputAdapter(Mui.TextField, (value, setValue) => ({
   },
 }));
 
-const SelectTemp = ({ value, setValue, options, ...props }) => (
-  <Mui.FormControl fullWidth>
-    <Mui.InputLabel id='demo-simple-select-label'>
-      {props?.label}
-    </Mui.InputLabel>
-    <Mui.Select {...props}>
-      {options.map((option) => (
-        <Mui.MenuItem value={option.value}>{option.label}</Mui.MenuItem>
-      ))}
-    </Mui.Select>
-  </Mui.FormControl>
-);
+
 
 export const Select = InputAdapter(Mui.Select, (value, setValue) => ({
   value: value,
