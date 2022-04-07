@@ -17,3 +17,8 @@ export const Select = InputAdapter(Mui.Select, (value, setValue) => ({
   value: value,
   onChange: (e) => setValue(e.target.value),
 }));
+
+export const Switch = InputAdapter(Mui.Switch, (value, setValue) => ({
+  checked: value,
+  onChange: (e) => setValue(e.target.checked),
+}));

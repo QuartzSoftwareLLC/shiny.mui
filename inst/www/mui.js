@@ -67317,22 +67317,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Button": () => (/* binding */ Button),
 /* harmony export */   "Select": () => (/* binding */ Select),
+/* harmony export */   "Switch": () => (/* binding */ Switch),
 /* harmony export */   "TextField": () => (/* binding */ TextField)
 /* harmony export */ });
 /* harmony import */ var _shiny_react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/shiny.react */ "@/shiny.react");
 /* harmony import */ var _shiny_react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_shiny_react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Button/Button.js");
 /* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TextField/TextField.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/FormControl/FormControl.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/InputLabel/InputLabel.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Select/Select.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/MenuItem/MenuItem.js");
-var _excluded = ["value", "setValue", "options"];
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Select/Select.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Switch/Switch.js");
 
 
 var Button = (0,_shiny_react__WEBPACK_IMPORTED_MODULE_0__.ButtonAdapter)(_mui_material__WEBPACK_IMPORTED_MODULE_1__["default"]);
@@ -67345,29 +67338,19 @@ var TextField = (0,_shiny_react__WEBPACK_IMPORTED_MODULE_0__.InputAdapter)(_mui_
     }
   };
 });
-
-var SelectTemp = function SelectTemp(_ref) {
-  var value = _ref.value,
-      setValue = _ref.setValue,
-      options = _ref.options,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return /*#__PURE__*/React.createElement(_mui_material__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    fullWidth: true
-  }, /*#__PURE__*/React.createElement(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    id: "demo-simple-select-label"
-  }, props === null || props === void 0 ? void 0 : props.label), /*#__PURE__*/React.createElement(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], props, options.map(function (option) {
-    return /*#__PURE__*/React.createElement(_mui_material__WEBPACK_IMPORTED_MODULE_6__["default"], {
-      value: option.value
-    }, option.label);
-  })));
-};
-
-var Select = (0,_shiny_react__WEBPACK_IMPORTED_MODULE_0__.InputAdapter)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], function (value, setValue) {
+var Select = (0,_shiny_react__WEBPACK_IMPORTED_MODULE_0__.InputAdapter)(_mui_material__WEBPACK_IMPORTED_MODULE_3__["default"], function (value, setValue) {
   return {
     value: value,
     onChange: function onChange(e) {
       return setValue(e.target.value);
+    }
+  };
+});
+var Switch = (0,_shiny_react__WEBPACK_IMPORTED_MODULE_0__.InputAdapter)(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], function (value, setValue) {
+  return {
+    checked: value,
+    onChange: function onChange(e) {
+      return setValue(e.target.checked);
     }
   };
 });

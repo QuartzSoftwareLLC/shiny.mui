@@ -38,3 +38,11 @@ TextField.shinyInput <- input("TextField")
 #' @description
 #' Visit the documentation at https://mui.com/api/Select/ for more information.
 Select.shinyInput <- input("Select")
+
+#' Select
+#' @export
+#' @example inst/examples/Switch.R
+#' @md
+#' @description
+#' Visit the documentation at https://mui.com/api/Switch/ for more information.
+Switch.shinyInput <- input("Switch")
