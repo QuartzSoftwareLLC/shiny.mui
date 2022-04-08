@@ -2,8 +2,7 @@ Package: shiny.mui
 Title: Mui fork to shiny written with the react.shiny lilbrary
 Version: 0.0.0.9000
 Authors@R: 
-    person("Jacob", "Clarke", "jacobclarke718@gmail.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person("Jacob", "Clarke", "jacobclarke718@gmail.com", role = c("aut", "cre") )
 Description: What the package does (one paragraph).
 License: Mui fork to shiny written with the react.shiny lilbrary
 Encoding: UTF-8
