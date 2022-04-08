@@ -1,6 +1,6 @@
 Package: shiny.mui
 Title: Mui fork to shiny written with the react.shiny lilbrary
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R:  person("Jacob", ,"Clarke", "jacobclarke718@gmail.com", role = c("aut", "cre") )
 Description: What the package does (one paragraph).
 License: Mui fork to shiny written with the react.shiny lilbrary
