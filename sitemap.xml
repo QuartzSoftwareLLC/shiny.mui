@@ -13,6 +13,9 @@
     <loc>https://quartzsoftwarellc.github.io/shiny.mui/authors.html</loc>
   </url>
   <url>
+    <loc>https://quartzsoftwarellc.github.io/shiny.mui/form.html</loc>
+  </url>
+  <url>
     <loc>https://quartzsoftwarellc.github.io/shiny.mui/index.html</loc>
   </url>
   <url>
@@ -35,6 +38,9 @@
   </url>
   <url>
     <loc>https://quartzsoftwarellc.github.io/shiny.mui/reference/AppBar.html</loc>
+  </url>
+  <url>
+    <loc>https://quartzsoftwarellc.github.io/shiny.mui/reference/Autocomplete.shinyInput.html</loc>
   </url>
   <url>
     <loc>https://quartzsoftwarellc.github.io/shiny.mui/reference/Avatar.html</loc>
