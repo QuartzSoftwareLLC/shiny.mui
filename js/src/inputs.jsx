@@ -2,6 +2,7 @@ import { ButtonAdapter, InputAdapter } from '@/shiny.react';
 import * as Mui from '@mui/material';
 
 export const Button = ButtonAdapter(Mui.Button);
+export const IconButton = ButtonAdapter(Mui.IconButton);
 
 export const TextField = InputAdapter(Mui.TextField, (value, setValue) => ({
   value: value,

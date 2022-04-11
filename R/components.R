@@ -913,3 +913,4 @@ InputLabel <- component("InputLabel")
 #' @description
 #' Visit the documentation at https://mui.com/api/Theme-Provider/ for more information.
 ThemeProvider <- component("ThemeProvider", module = "@/shiny.mui")
+

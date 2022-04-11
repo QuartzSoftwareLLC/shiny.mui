@@ -1,6 +1,22 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
+  \**********************************************************************/
+/***/ ((module) => {
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+module.exports = _interopRequireDefault, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+
 /***/ "./node_modules/@emotion/cache/dist/emotion-cache.browser.esm.js":
 /*!***********************************************************************!*\
   !*** ./node_modules/@emotion/cache/dist/emotion-cache.browser.esm.js ***!
@@ -7086,6 +7102,85 @@ function isHostComponent(element) {
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (isHostComponent);
+
+/***/ }),
+
+/***/ "./node_modules/@mui/icons-material/BarChart.js":
+/*!******************************************************!*\
+  !*** ./node_modules/@mui/icons-material/BarChart.js ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+
+Object.defineProperty(exports, "__esModule", ({
+  value: true
+}));
+exports["default"] = void 0;
+
+var _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/createSvgIcon */ "./node_modules/@mui/icons-material/utils/createSvgIcon.js"));
+
+var _jsxRuntime = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+var _default = (0, _createSvgIcon.default)( /*#__PURE__*/(0, _jsxRuntime.jsx)("path", {
+  d: "M5 9.2h3V19H5zM10.6 5h2.8v14h-2.8zm5.6 8H19v6h-2.8z"
+}), 'BarChart');
+
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "./node_modules/@mui/icons-material/TableView.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/@mui/icons-material/TableView.js ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+
+Object.defineProperty(exports, "__esModule", ({
+  value: true
+}));
+exports["default"] = void 0;
+
+var _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/createSvgIcon */ "./node_modules/@mui/icons-material/utils/createSvgIcon.js"));
+
+var _jsxRuntime = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+var _default = (0, _createSvgIcon.default)( /*#__PURE__*/(0, _jsxRuntime.jsx)("path", {
+  d: "M19 7H9c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zm0 2v2H9V9h10zm-6 6v-2h2v2h-2zm2 2v2h-2v-2h2zm-4-2H9v-2h2v2zm6-2h2v2h-2v-2zm-8 4h2v2H9v-2zm8 2v-2h2v2h-2zM6 17H5c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2v1h-2V5H5v10h1v2z"
+}), 'TableView');
+
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "./node_modules/@mui/icons-material/utils/createSvgIcon.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/@mui/icons-material/utils/createSvgIcon.js ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", ({
+  value: true
+}));
+Object.defineProperty(exports, "default", ({
+  enumerable: true,
+  get: function () {
+    return _utils.createSvgIcon;
+  }
+}));
+
+var _utils = __webpack_require__(/*! @mui/material/utils */ "./node_modules/@mui/material/utils/index.js");
 
 /***/ }),
 
@@ -67317,6 +67412,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Autocomplete": () => (/* binding */ Autocomplete),
 /* harmony export */   "Button": () => (/* binding */ Button),
+/* harmony export */   "IconButton": () => (/* binding */ IconButton),
 /* harmony export */   "Select": () => (/* binding */ Select),
 /* harmony export */   "Switch": () => (/* binding */ Switch),
 /* harmony export */   "TextField": () => (/* binding */ TextField)
@@ -67324,10 +67420,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _shiny_react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/shiny.react */ "@/shiny.react");
 /* harmony import */ var _shiny_react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_shiny_react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Button/Button.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TextField/TextField.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Select/Select.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Switch/Switch.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Autocomplete/Autocomplete.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/IconButton/IconButton.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TextField/TextField.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Select/Select.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Switch/Switch.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Autocomplete/Autocomplete.js");
 var _excluded = ["inputProps"];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -67339,7 +67436,8 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 
 var Button = (0,_shiny_react__WEBPACK_IMPORTED_MODULE_0__.ButtonAdapter)(_mui_material__WEBPACK_IMPORTED_MODULE_1__["default"]);
-var TextField = (0,_shiny_react__WEBPACK_IMPORTED_MODULE_0__.InputAdapter)(_mui_material__WEBPACK_IMPORTED_MODULE_2__["default"], function (value, setValue) {
+var IconButton = (0,_shiny_react__WEBPACK_IMPORTED_MODULE_0__.ButtonAdapter)(_mui_material__WEBPACK_IMPORTED_MODULE_2__["default"]);
+var TextField = (0,_shiny_react__WEBPACK_IMPORTED_MODULE_0__.InputAdapter)(_mui_material__WEBPACK_IMPORTED_MODULE_3__["default"], function (value, setValue) {
   return {
     value: value,
     onChange: function onChange(e) {
@@ -67348,7 +67446,7 @@ var TextField = (0,_shiny_react__WEBPACK_IMPORTED_MODULE_0__.InputAdapter)(_mui_
     }
   };
 });
-var Select = (0,_shiny_react__WEBPACK_IMPORTED_MODULE_0__.InputAdapter)(_mui_material__WEBPACK_IMPORTED_MODULE_3__["default"], function (value, setValue) {
+var Select = (0,_shiny_react__WEBPACK_IMPORTED_MODULE_0__.InputAdapter)(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], function (value, setValue) {
   return {
     value: value,
     onChange: function onChange(e) {
@@ -67356,7 +67454,7 @@ var Select = (0,_shiny_react__WEBPACK_IMPORTED_MODULE_0__.InputAdapter)(_mui_mat
     }
   };
 });
-var Switch = (0,_shiny_react__WEBPACK_IMPORTED_MODULE_0__.InputAdapter)(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], function (value, setValue) {
+var Switch = (0,_shiny_react__WEBPACK_IMPORTED_MODULE_0__.InputAdapter)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], function (value, setValue) {
   return {
     checked: value,
     onChange: function onChange(e) {
@@ -67369,12 +67467,12 @@ var AutocompleteWrapper = function AutocompleteWrapper(_ref) {
   var inputProps = _ref.inputProps,
       props = _objectWithoutProperties(_ref, _excluded);
 
-  return /*#__PURE__*/React.createElement(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], _extends({
+  return /*#__PURE__*/React.createElement(_mui_material__WEBPACK_IMPORTED_MODULE_6__["default"], _extends({
     getOptionLabel: function getOptionLabel(option) {
       return (option === null || option === void 0 ? void 0 : option.label) || '';
     },
     renderInput: function renderInput(params) {
-      return /*#__PURE__*/React.createElement(_mui_material__WEBPACK_IMPORTED_MODULE_2__["default"], _extends({}, params, inputProps));
+      return /*#__PURE__*/React.createElement(_mui_material__WEBPACK_IMPORTED_MODULE_3__["default"], _extends({}, params, inputProps));
     }
   }, props));
 };
@@ -68759,6 +68857,8 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _inputs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./inputs */ "./src/inputs.jsx");
 /* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ThemeProvider */ "./src/ThemeProvider.tsx");
+/* harmony import */ var _mui_icons_material_BarChart__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mui/icons-material/BarChart */ "./node_modules/@mui/icons-material/BarChart.js");
+/* harmony import */ var _mui_icons_material_TableView__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @mui/icons-material/TableView */ "./node_modules/@mui/icons-material/TableView.js");
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
@@ -68767,11 +68867,17 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
+
+
 window.jsmodule = _objectSpread(_objectSpread({}, window.jsmodule), {}, {
   '@/shiny.mui': _objectSpread(_objectSpread({}, _inputs__WEBPACK_IMPORTED_MODULE_0__), {}, {
     ThemeProvider: _ThemeProvider__WEBPACK_IMPORTED_MODULE_1__["default"]
   }),
-  '@mui/material': __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/index.js")
+  '@mui/material': __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/index.js"),
+  '@mui/icons-material': {
+    TableViewIcon: _mui_icons_material_TableView__WEBPACK_IMPORTED_MODULE_2__["default"],
+    BarChartIcon: _mui_icons_material_BarChart__WEBPACK_IMPORTED_MODULE_3__["default"]
+  }
 });
 })();
 

@@ -22,6 +22,13 @@ input <- function(name, defaultValue = "") {
 #' Visit the documentation at https://mui.com/api/Button/ for more information.
 Button.shinyInput <- button("Button")
 
+#' IconButton
+#' @export
+#' @md
+#' @description
+#' Visit the documentation at https://mui.com/api/Icon-Button/ for more information.
+IconButton.shinyInput <- button("IconButton")
+
 
 #' TextField
 #' @export
