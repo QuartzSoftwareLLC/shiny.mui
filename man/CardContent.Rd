@@ -12,7 +12,6 @@ Visit the documentation at https://mui.com/api/Card-Content/ for more informatio
 \examples{
 library(shiny.mui)
 library(shiny)
-setInput()
 component_example(tagList(
   Card(
     CardContent("Hello world!")

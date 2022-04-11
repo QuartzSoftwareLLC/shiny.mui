@@ -21,3 +21,13 @@ BarChartIcon <- icon("BarChartIcon")
 #' @export
 #'
 TableViewIcon <- icon("TableViewIcon")
+
+#' CalculateIcon
+#' @export
+#'
+CalculateIcon <- icon("CalculateIcon")
+
+#' SettingsIcon
+#' @export
+#'
+SettingsIcon <- icon("SettingsIcon")
