@@ -13,9 +13,6 @@
     <loc>https://quartzsoftwarellc.github.io/shiny.mui/authors.html</loc>
   </url>
   <url>
-    <loc>https://quartzsoftwarellc.github.io/shiny.mui/form.html</loc>
-  </url>
-  <url>
     <loc>https://quartzsoftwarellc.github.io/shiny.mui/index.html</loc>
   </url>
   <url>
@@ -194,6 +191,9 @@
   </url>
   <url>
     <loc>https://quartzsoftwarellc.github.io/shiny.mui/reference/ImageListItemBar.html</loc>
+  </url>
+  <url>
+    <loc>https://quartzsoftwarellc.github.io/shiny.mui/reference/InfoIcon.html</loc>
   </url>
   <url>
     <loc>https://quartzsoftwarellc.github.io/shiny.mui/reference/InputAdornment.html</loc>
