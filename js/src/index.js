@@ -5,7 +5,7 @@ import BarChartIcon from '@mui/icons-material/BarChart';
 import TableViewIcon from '@mui/icons-material/TableView';
 import SettingsIcon from '@mui/icons-material/Settings';
 import CalculateIcon from '@mui/icons-material/Calculate';
-
+import InfoIcon from '@mui/icons-material/Info';
 window.jsmodule = {
   ...window.jsmodule,
   '@/shiny.mui': { ...Inputs, ThemeProvider },
@@ -15,5 +15,6 @@ window.jsmodule = {
     BarChartIcon,
     SettingsIcon,
     CalculateIcon,
+    InfoIcon,
   },
 };

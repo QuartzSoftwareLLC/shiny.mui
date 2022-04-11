@@ -31,3 +31,9 @@ CalculateIcon <- icon("CalculateIcon")
 #' @export
 #'
 SettingsIcon <- icon("SettingsIcon")
+
+
+#' InfoIcon
+#' @export
+#'
+InfoIcon <- icon("InfoIcon")

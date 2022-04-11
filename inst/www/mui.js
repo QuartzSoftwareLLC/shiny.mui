@@ -7161,6 +7161,34 @@ exports["default"] = _default;
 
 /***/ }),
 
+/***/ "./node_modules/@mui/icons-material/Info.js":
+/*!**************************************************!*\
+  !*** ./node_modules/@mui/icons-material/Info.js ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+
+Object.defineProperty(exports, "__esModule", ({
+  value: true
+}));
+exports["default"] = void 0;
+
+var _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/createSvgIcon */ "./node_modules/@mui/icons-material/utils/createSvgIcon.js"));
+
+var _jsxRuntime = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+var _default = (0, _createSvgIcon.default)( /*#__PURE__*/(0, _jsxRuntime.jsx)("path", {
+  d: "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+}), 'Info');
+
+exports["default"] = _default;
+
+/***/ }),
+
 /***/ "./node_modules/@mui/icons-material/Settings.js":
 /*!******************************************************!*\
   !*** ./node_modules/@mui/icons-material/Settings.js ***!
@@ -68917,11 +68945,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _mui_icons_material_TableView__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @mui/icons-material/TableView */ "./node_modules/@mui/icons-material/TableView.js");
 /* harmony import */ var _mui_icons_material_Settings__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/icons-material/Settings */ "./node_modules/@mui/icons-material/Settings.js");
 /* harmony import */ var _mui_icons_material_Calculate__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @mui/icons-material/Calculate */ "./node_modules/@mui/icons-material/Calculate.js");
+/* harmony import */ var _mui_icons_material_Info__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @mui/icons-material/Info */ "./node_modules/@mui/icons-material/Info.js");
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -68938,7 +68968,8 @@ window.jsmodule = _objectSpread(_objectSpread({}, window.jsmodule), {}, {
     TableViewIcon: _mui_icons_material_TableView__WEBPACK_IMPORTED_MODULE_2__["default"],
     BarChartIcon: _mui_icons_material_BarChart__WEBPACK_IMPORTED_MODULE_3__["default"],
     SettingsIcon: _mui_icons_material_Settings__WEBPACK_IMPORTED_MODULE_4__["default"],
-    CalculateIcon: _mui_icons_material_Calculate__WEBPACK_IMPORTED_MODULE_5__["default"]
+    CalculateIcon: _mui_icons_material_Calculate__WEBPACK_IMPORTED_MODULE_5__["default"],
+    InfoIcon: _mui_icons_material_Info__WEBPACK_IMPORTED_MODULE_6__["default"]
   }
 });
 })();
