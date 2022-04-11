@@ -1,3 +1,4 @@
+#' @export
 muiDependency <- function() {
   htmltools::htmlDependency(
     name = "mui",

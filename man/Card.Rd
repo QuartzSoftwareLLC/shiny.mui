@@ -12,7 +12,7 @@ Visit the documentation at https://mui.com/api/Card/ for more information.
 \examples{
 library(shiny.mui)
 library(shiny)
-
+setInput()
 component_example(tagList(
   Card(
     CardContent("Hello world!")
