@@ -1,9 +1,9 @@
 Package: shiny.mui
 Title: Mui fork to shiny written with the react.shiny lilbrary
 Version: 0.0.0.9001
-Authors@R:  person("Jacob", ,"Clarke", "jacobclarke718@gmail.com", role = c("aut", "cre") )
+Authors@R: person("Jacob", ,"Clarke", "jacobclarke718@gmail.com", role = c("aut", "cre") )
 Description: What the package does (one paragraph).
-License: Mui fork to shiny written with the react.shiny lilbrary
+License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
