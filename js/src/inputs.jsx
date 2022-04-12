@@ -41,3 +41,12 @@ export const Autocomplete = InputAdapter(
     };
   }
 );
+
+
+export const Slider = InputAdapter(Mui.Slider, (value, setValue) => {
+  return {
+    value: value,
+    onChange: (e, newValue) => setValue(newValue),
+  };
+});
+

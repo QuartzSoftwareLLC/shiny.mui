@@ -61,3 +61,11 @@ Switch.shinyInput <- input("Switch")
 #' @description
 #' Visit the documentation at https://mui.com/api/Autocomplete/ for more information.
 Autocomplete.shinyInput <- input("Autocomplete")
+
+#' Slider
+#' @export
+#' @example inst/examples/Slider.R
+#' @md
+#' @description
+#' Visit the documentation at https://mui.com/api/Slider/ for more information.
+Slider.shinyInput <- input("Slider")

@@ -67498,6 +67498,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "Button": () => (/* binding */ Button),
 /* harmony export */   "IconButton": () => (/* binding */ IconButton),
 /* harmony export */   "Select": () => (/* binding */ Select),
+/* harmony export */   "Slider": () => (/* binding */ Slider),
 /* harmony export */   "Switch": () => (/* binding */ Switch),
 /* harmony export */   "TextField": () => (/* binding */ TextField)
 /* harmony export */ });
@@ -67509,6 +67510,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Select/Select.js");
 /* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Switch/Switch.js");
 /* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Autocomplete/Autocomplete.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Slider/Slider.js");
 var _excluded = ["inputProps"];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -67564,6 +67566,14 @@ var AutocompleteWrapper = function AutocompleteWrapper(_ref) {
 var Autocomplete = (0,_shiny_react__WEBPACK_IMPORTED_MODULE_0__.InputAdapter)(AutocompleteWrapper, function (value, setValue) {
   return {
     value: value || [],
+    onChange: function onChange(e, newValue) {
+      return setValue(newValue);
+    }
+  };
+});
+var Slider = (0,_shiny_react__WEBPACK_IMPORTED_MODULE_0__.InputAdapter)(_mui_material__WEBPACK_IMPORTED_MODULE_7__["default"], function (value, setValue) {
+  return {
+    value: value,
     onChange: function onChange(e, newValue) {
       return setValue(newValue);
     }
