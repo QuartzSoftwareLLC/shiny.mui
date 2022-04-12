@@ -13,3 +13,9 @@ Imports:
     htmltools
 Remotes:
     github::Appsilon/shiny.react
+repo:
+  url:
+    home: https://github.com/quartzsoftwarellc/shiny.mui
+    source: https://github.com/quartzsoftwarellc/shiny.mui/HEAD/
+    issue: https://github.com/quartzsoftwarellc/shiny.mui/issues/
+    user: https://github.com/quartzsoftwarellc
