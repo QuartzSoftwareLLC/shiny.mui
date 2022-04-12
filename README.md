@@ -7,7 +7,7 @@ Quartz loves mui
 A good shiny dashboard makes its best impact when powered by an elegant ui solution. Shiny.mui is a port of the beautiful [Material-UI](https://mui.com) react library into shiny r.
 ## Installation 
 
-```R
+```{R}
 remotes::install_github("quartzsoftwarellc/shiny.mui")
 ```
 
