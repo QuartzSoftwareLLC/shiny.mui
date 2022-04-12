@@ -1,4 +1,4 @@
-![Quartz Software](https://quartzsoftware-assets.s3.amazonaws.com/logo.svg)
+<div style="display: flex; justify-content: center;"><img src="https://quartzsoftware-assets.s3.amazonaws.com/logo.svg" height="100"/></div>
 
 # shiny.mui
 
