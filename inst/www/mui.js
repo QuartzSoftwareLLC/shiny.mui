@@ -68974,6 +68974,8 @@ window.jsmodule = _objectSpread(_objectSpread({}, window.jsmodule), {}, {
     ThemeProvider: _ThemeProvider__WEBPACK_IMPORTED_MODULE_1__["default"]
   }),
   '@mui/material': __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/index.js"),
+  '@emotion/styled': __webpack_require__(/*! @emotion/styled */ "./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js"),
+  '@emotion/react': __webpack_require__(/*! @emotion/react */ "./node_modules/@emotion/react/dist/emotion-react.browser.esm.js"),
   '@mui/icons-material': {
     TableViewIcon: _mui_icons_material_TableView__WEBPACK_IMPORTED_MODULE_2__["default"],
     BarChartIcon: _mui_icons_material_BarChart__WEBPACK_IMPORTED_MODULE_3__["default"],
