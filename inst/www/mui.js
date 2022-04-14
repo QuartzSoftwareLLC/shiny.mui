@@ -67554,9 +67554,6 @@ var AutocompleteWrapper = function AutocompleteWrapper(_ref) {
       props = _objectWithoutProperties(_ref, _excluded);
 
   return /*#__PURE__*/React.createElement(_mui_material__WEBPACK_IMPORTED_MODULE_6__["default"], _extends({
-    getOptionLabel: function getOptionLabel(option) {
-      return (option === null || option === void 0 ? void 0 : option.label) || '';
-    },
     renderInput: function renderInput(params) {
       return /*#__PURE__*/React.createElement(_mui_material__WEBPACK_IMPORTED_MODULE_3__["default"], _extends({}, params, inputProps));
     }

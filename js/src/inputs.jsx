@@ -26,7 +26,6 @@ export const Switch = InputAdapter(Mui.Switch, (value, setValue) => ({
 
 const AutocompleteWrapper = ({ inputProps, ...props }) => (
   <Mui.Autocomplete
-    getOptionLabel={(option) => option?.label || ''}
     renderInput={(params) => <Mui.TextField {...params} {...inputProps} />}
     {...props}
   />
