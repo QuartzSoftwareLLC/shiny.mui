@@ -18,12 +18,12 @@ library(magrittr)
 if (interactive()) {
   shinyApp(
     ui = div(
-      Autocomplete.shinyInput("text", options = c("go", "town"), multiple = F),
+      Autocomplete.shinyInput("text", options = list(list(label = "go", value = "go"), list(label = "town")), multiple = T, filterSelectedOptions = T),
       textOutput("textValue")
     ),
     server = function(input, output) {
       output$textValue <- renderText({
-        sprintf("Value: \%s", input$text)
+        paste(input$text, collapse = ",")
       })
     }
   )

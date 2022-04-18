@@ -69,3 +69,12 @@ Autocomplete.shinyInput <- input("Autocomplete")
 #' @description
 #' Visit the documentation at https://mui.com/api/Slider/ for more information.
 Slider.shinyInput <- input("Slider")
+
+
+#' Tabs
+#' @export
+#' @example inst/examples/Tabs.R
+#' @md
+#' @description
+#' Visit the documentation at https://mui.com/api/Tabs/ for more information.
+Tabs.shinyInput <- input("Tabs")

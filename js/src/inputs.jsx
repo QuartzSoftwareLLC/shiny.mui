@@ -49,3 +49,9 @@ export const Slider = InputAdapter(Mui.Slider, (value, setValue) => {
   };
 });
 
+export const Tabs = InputAdapter(Mui.Tabs, (value, setValue) => {
+  return {
+    value: value,
+    onChange: (e, newValue) => setValue(newValue),
+  };
+});
