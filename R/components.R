@@ -114,6 +114,13 @@ BottomNavigationAction <- component("BottomNavigationAction")
 Breadcrumbs <- component("Breadcrumbs")
 
 
+#' Button
+#' @export
+#' @md
+#' @description
+#' Visit the documentation at https://mui.com/api/Button/ for more information.
+Button <- component("Button")
+
 #' ButtonBase
 #' @export
 #' @md
