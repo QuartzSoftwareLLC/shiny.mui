@@ -921,3 +921,9 @@ InputLabel <- component("InputLabel")
 #' Visit the documentation at https://mui.com/api/Theme-Provider/ for more information.
 ThemeProvider <- component("ThemeProvider", module = "@/shiny.mui")
 
+
+
+#' DataGrid
+#' @export
+#'
+DataGrid <- component("DataGrid", module = "@mui/x-data-grid")

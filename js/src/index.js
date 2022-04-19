@@ -10,6 +10,7 @@ window.jsmodule = {
   ...window.jsmodule,
   '@/shiny.mui': { ...Inputs, ThemeProvider },
   '@mui/material': require('@mui/material'),
+  '@mui/x-data-grid': require('@mui/x-data-grid'),
   '@emotion/styled': require('@emotion/styled'),
   '@emotion/react': require('@emotion/react'),
   '@mui/icons-material': {
