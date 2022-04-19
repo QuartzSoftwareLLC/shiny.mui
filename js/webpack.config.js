@@ -3,12 +3,12 @@ const path = require('path');
 
 const config = {
   entry: './src/index.js',
-  mode: "development",
+  mode: 'production',
   output: {
     path: path.join(__dirname, '..', 'inst', 'www'),
-    filename: 'mui.js'
+    filename: 'mui.js',
   },
-  resolve: { extensions: ['.js', '.jsx', ".ts", ".tsx"] },
+  resolve: { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
   devtool: 'source-map',
 
   module: {
@@ -19,22 +19,17 @@ const config = {
       },
       {
         test: /\.css$/,
-        use: [
-          'style-loader',
-          'css-loader'
-        ]
-      }
+        use: ['style-loader', 'css-loader'],
+      },
     ],
   },
 
   externals: {
-    'react': 'jsmodule["react"]',
+    react: 'jsmodule["react"]',
     'react-dom': 'jsmodule["react-dom"]',
-    '@/shiny.react': 'jsmodule["@/shiny.react"]'
+    '@/shiny.react': 'jsmodule["@/shiny.react"]',
   },
-  plugins: [
-    new webpack.DefinePlugin({ 'process.env': '{}' })
-  ]
+  plugins: [new webpack.DefinePlugin({ 'process.env': '{}' })],
 };
 
 module.exports = config;
