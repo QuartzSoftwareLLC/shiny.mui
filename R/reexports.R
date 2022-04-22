@@ -17,3 +17,7 @@ shiny.react::setInput
 #' @importFrom shiny.react triggerEvent
 #' @export
 shiny.react::triggerEvent
+
+#' @importFrom shiny.react updateReactInput
+#' @export
+shiny.react::updateReactInput

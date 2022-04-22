@@ -8,6 +8,7 @@
 \alias{renderReact}
 \alias{setInput}
 \alias{triggerEvent}
+\alias{updateReactInput}
 \title{Objects exported from other packages}
 \keyword{internal}
 \description{
@@ -15,6 +16,6 @@ These objects are imported from other packages. Follow the links
 below to see their documentation.
 
 \describe{
-  \item{shiny.react}{\code{\link[shiny.react]{JS}}, \code{\link[shiny.react]{reactOutput}}, \code{\link[shiny.react]{renderReact}}, \code{\link[shiny.react]{setInput}}, \code{\link[shiny.react]{triggerEvent}}}
+  \item{shiny.react}{\code{\link[shiny.react]{JS}}, \code{\link[shiny.react]{reactOutput}}, \code{\link[shiny.react]{renderReact}}, \code{\link[shiny.react]{setInput}}, \code{\link[shiny.react]{triggerEvent}}, \code{\link[shiny.react]{updateReactInput}}}
 }}
 
