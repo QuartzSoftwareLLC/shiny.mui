@@ -16,7 +16,13 @@ library(shiny)
 if (interactive()) {
   shinyApp(
     ui = div(
-      Tabs.shinyInput("tabs", value = "first", Tab(value = "first", label = "First", "First"), Tab(value = "second", label = "Second", "Second"), Tab(value = "third", label = "Third", "Third")),
+      Tabs.shinyInput(
+        "tabs",
+        value = "first",
+        Tab(value = "first", label = "First"),
+        Tab(value = "second", label = "Second"),
+        Tab(value = "third", label = "Third")
+      ),
       textOutput("textValue")
     ),
     server = function(input, output) {

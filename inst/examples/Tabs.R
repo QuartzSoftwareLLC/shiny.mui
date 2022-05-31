@@ -4,13 +4,20 @@ library(shiny)
 if (interactive()) {
   shinyApp(
     ui = div(
-      Tabs.shinyInput("tabs", value = "first", Tab(value = "first", label = "First", "First"), Tab(value = "second", label = "Second", "Second"), Tab(value = "third", label = "Third", "Third")),
-      textOutput("textValue")
+      Tabs.shinyInput(
+        "tabs",
+        value = "first",
+        Tab(value = "first", label = "First"),
+        Tab(value = "second", label = "Second"),
+        Tab(value = "third", label = "Third")
+      ),
+      textOutput("text_value")
     ),
     server = function(input, output) {
-      output$textValue <- renderText({
-        sprintf("Value: %s", input$tabs)
+      output$text_value <- renderText({
+        glue:glue("Value: {input$tabs}")
       })
     }
   )
 }
+
