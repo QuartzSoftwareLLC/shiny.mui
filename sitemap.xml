@@ -4,9 +4,6 @@
     <loc>https://quartzsoftwarellc.github.io/shiny.mui/404.html</loc>
   </url>
   <url>
-    <loc>https://quartzsoftwarellc.github.io/shiny.mui/LICENSE-text.html</loc>
-  </url>
-  <url>
     <loc>https://quartzsoftwarellc.github.io/shiny.mui/LICENSE.html</loc>
   </url>
   <url>
@@ -436,7 +433,19 @@
     <loc>https://quartzsoftwarellc.github.io/shiny.mui/reference/Zoom.html</loc>
   </url>
   <url>
+    <loc>https://quartzsoftwarellc.github.io/shiny.mui/reference/component_example.html</loc>
+  </url>
+  <url>
     <loc>https://quartzsoftwarellc.github.io/shiny.mui/reference/index.html</loc>
+  </url>
+  <url>
+    <loc>https://quartzsoftwarellc.github.io/shiny.mui/reference/input.html</loc>
+  </url>
+  <url>
+    <loc>https://quartzsoftwarellc.github.io/shiny.mui/reference/muiDependency.html</loc>
+  </url>
+  <url>
+    <loc>https://quartzsoftwarellc.github.io/shiny.mui/reference/pipe.html</loc>
   </url>
   <url>
     <loc>https://quartzsoftwarellc.github.io/shiny.mui/reference/reexports.html</loc>
