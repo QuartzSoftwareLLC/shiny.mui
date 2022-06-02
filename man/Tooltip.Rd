@@ -6,6 +6,9 @@
 \usage{
 Tooltip(...)
 }
+\arguments{
+\item{...}{args to pass to element}
+}
 \description{
 Visit the documentation at https://mui.com/api/Tooltip/ for more information.
 }

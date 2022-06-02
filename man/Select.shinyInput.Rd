@@ -6,6 +6,13 @@
 \usage{
 Select.shinyInput(inputId, ..., value = defaultValue)
 }
+\arguments{
+\item{inputId}{the shiny input id}
+
+\item{...}{args to pass to element}
+
+\item{value}{the default value of the element}
+}
 \description{
 Visit the documentation at https://mui.com/api/Select/ for more information.
 }

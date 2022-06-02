@@ -6,6 +6,9 @@
 \usage{
 SpeedDialIcon(...)
 }
+\arguments{
+\item{...}{args to pass to element}
+}
 \description{
 Visit the documentation at https://mui.com/api/Speed-Dial-Icon/ for more information.
 }

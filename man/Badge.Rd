@@ -6,6 +6,9 @@
 \usage{
 Badge(...)
 }
+\arguments{
+\item{...}{args to pass to element}
+}
 \description{
 Visit the documentation at https://mui.com/api/Badge/ for more information.
 }

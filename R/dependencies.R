@@ -1,3 +1,5 @@
+#' Mui Dependency
+#' Used to source the material ui Library
 #' @export
 muiDependency <- function() {
   htmltools::htmlDependency(

@@ -3,6 +3,7 @@
 #' Used for documentation purposes to show shiny examples.
 #' 
 #' @export
+#' @param ... ui taglist to render
 component_example <- function(...) {
     if (interactive()) {
         options(shiny.launch.browser = FALSE)

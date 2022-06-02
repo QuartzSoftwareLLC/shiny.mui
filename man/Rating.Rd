@@ -6,6 +6,9 @@
 \usage{
 Rating(...)
 }
+\arguments{
+\item{...}{args to pass to element}
+}
 \description{
 Visit the documentation at https://mui.com/api/Rating/ for more information.
 }

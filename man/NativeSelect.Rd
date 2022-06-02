@@ -6,6 +6,9 @@
 \usage{
 NativeSelect(...)
 }
+\arguments{
+\item{...}{args to pass to element}
+}
 \description{
 Visit the documentation at https://mui.com/api/Native-Select/ for more information.
 }

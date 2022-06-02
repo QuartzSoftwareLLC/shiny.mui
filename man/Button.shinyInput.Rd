@@ -6,6 +6,11 @@
 \usage{
 Button.shinyInput(inputId, ...)
 }
+\arguments{
+\item{inputId}{the shiny input id}
+
+\item{...}{args to pass to element}
+}
 \description{
 Visit the documentation at https://mui.com/api/Button/ for more information.
 }

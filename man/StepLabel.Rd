@@ -6,6 +6,9 @@
 \usage{
 StepLabel(...)
 }
+\arguments{
+\item{...}{args to pass to element}
+}
 \description{
 Visit the documentation at https://mui.com/api/Step-Label/ for more information.
 }

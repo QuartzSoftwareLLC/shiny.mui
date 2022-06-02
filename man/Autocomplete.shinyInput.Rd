@@ -6,6 +6,13 @@
 \usage{
 Autocomplete.shinyInput(inputId, ..., value = defaultValue)
 }
+\arguments{
+\item{inputId}{the shiny input id}
+
+\item{...}{args to pass to element}
+
+\item{value}{the default value of the element}
+}
 \description{
 Visit the documentation at https://mui.com/api/Autocomplete/ for more information.
 }
@@ -18,7 +25,17 @@ library(magrittr)
 if (interactive()) {
   shinyApp(
     ui = div(
-      Autocomplete.shinyInput("text", options = list(list(label = "go", value = "go"), list(label = "town")), multiple = T, filterSelectedOptions = T),
+      Autocomplete.shinyInput(
+        "text",
+        options = list(
+          list(
+            label = "go",
+            value = "go"
+          ),
+          list(label = "town")),
+          multiple = T,
+          filterSelectedOptions = T
+        ),
       textOutput("textValue")
     ),
     server = function(input, output) {

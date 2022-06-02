@@ -6,6 +6,9 @@
 \usage{
 DialogActions(...)
 }
+\arguments{
+\item{...}{args to pass to element}
+}
 \description{
 Visit the documentation at https://mui.com/api/Dialog-Actions/ for more information.
 }

@@ -6,6 +6,9 @@
 \usage{
 SettingsIcon(...)
 }
+\arguments{
+\item{...}{args to pass to element}
+}
 \description{
 SettingsIcon
 }

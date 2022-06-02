@@ -6,6 +6,9 @@
 \usage{
 RadioGroup(...)
 }
+\arguments{
+\item{...}{args to pass to element}
+}
 \description{
 Visit the documentation at https://mui.com/api/Radio-Group/ for more information.
 }

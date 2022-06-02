@@ -6,6 +6,9 @@
 \usage{
 CalculateIcon(...)
 }
+\arguments{
+\item{...}{args to pass to element}
+}
 \description{
 CalculateIcon
 }

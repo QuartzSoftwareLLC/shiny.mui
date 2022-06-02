@@ -6,6 +6,9 @@
 \usage{
 StyledEngineProvider(...)
 }
+\arguments{
+\item{...}{args to pass to element}
+}
 \description{
 Visit the documentation at https://mui.com/api/Styled-Engine-Provider/ for more information.
 }

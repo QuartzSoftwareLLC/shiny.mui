@@ -6,6 +6,9 @@
 \usage{
 Popover(...)
 }
+\arguments{
+\item{...}{args to pass to element}
+}
 \description{
 Visit the documentation at https://mui.com/api/Popover/ for more information.
 }

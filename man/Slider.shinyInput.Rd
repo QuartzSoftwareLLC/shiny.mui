@@ -6,8 +6,16 @@
 \usage{
 Slider.shinyInput(inputId, ..., value = defaultValue)
 }
+\arguments{
+\item{inputId}{the shiny input id}
+
+\item{...}{args to pass to element}
+
+\item{value}{the default value of the element
+Visit the documentation at https://mui.com/api/Slider/ for more information.}
+}
 \description{
-Visit the documentation at https://mui.com/api/Slider/ for more information.
+Slider
 }
 \examples{
 library(shiny.mui)

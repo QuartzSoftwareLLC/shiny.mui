@@ -6,6 +6,9 @@
 \usage{
 TableSortLabel(...)
 }
+\arguments{
+\item{...}{args to pass to element}
+}
 \description{
 Visit the documentation at https://mui.com/api/Table-Sort-Label/ for more information.
 }

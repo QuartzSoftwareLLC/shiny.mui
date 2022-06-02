@@ -6,6 +6,9 @@
 \usage{
 ImageListItemBar(...)
 }
+\arguments{
+\item{...}{args to pass to element}
+}
 \description{
 Visit the documentation at https://mui.com/api/Image-List-Item-Bar/ for more information.
 }

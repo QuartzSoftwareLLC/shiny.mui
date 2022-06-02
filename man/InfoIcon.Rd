@@ -6,6 +6,9 @@
 \usage{
 InfoIcon(...)
 }
+\arguments{
+\item{...}{args to pass to element}
+}
 \description{
 InfoIcon
 }

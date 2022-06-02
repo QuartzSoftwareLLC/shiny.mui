@@ -6,6 +6,9 @@
 \usage{
 Slide(...)
 }
+\arguments{
+\item{...}{args to pass to element}
+}
 \description{
 Visit the documentation at https://mui.com/api/Slide/ for more information.
 }

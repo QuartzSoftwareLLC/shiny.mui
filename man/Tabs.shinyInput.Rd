@@ -6,6 +6,13 @@
 \usage{
 Tabs.shinyInput(inputId, ..., value = defaultValue)
 }
+\arguments{
+\item{inputId}{the shiny input id}
+
+\item{...}{args to pass to element}
+
+\item{value}{the default value of the element}
+}
 \description{
 Visit the documentation at https://mui.com/api/Tabs/ for more information.
 }
@@ -23,13 +30,14 @@ if (interactive()) {
         Tab(value = "second", label = "Second"),
         Tab(value = "third", label = "Third")
       ),
-      textOutput("textValue")
+      textOutput("text_value")
     ),
     server = function(input, output) {
-      output$textValue <- renderText({
-        sprintf("Value: \%s", input$tabs)
+      output$text_value <- renderText({
+        glue:glue("Value: {input$tabs}")
       })
     }
   )
 }
+
 }

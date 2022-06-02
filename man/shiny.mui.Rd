@@ -3,5 +3,7 @@
 \docType{package}
 \name{shiny.mui}
 \alias{shiny.mui}
-\title{shiny.react
-A package for porting material ui library into shiny}
+\title{shiny.react}
+\description{
+A package for porting material ui library into shiny
+}

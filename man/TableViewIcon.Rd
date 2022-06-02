@@ -6,6 +6,9 @@
 \usage{
 TableViewIcon(...)
 }
+\arguments{
+\item{...}{args to pass to element}
+}
 \description{
 BartChartIcon
 }

@@ -6,6 +6,9 @@
 \usage{
 BottomNavigation(...)
 }
+\arguments{
+\item{...}{args to pass to element}
+}
 \description{
 Visit the documentation at https://mui.com/api/Bottom-Navigation/ for more information.
 }
