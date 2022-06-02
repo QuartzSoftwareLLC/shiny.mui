@@ -22,7 +22,7 @@ All components in the [mui](https://mui.com) library are available in this packa
 library(shiny.mui)
 library(shiny)
 
-runApp(shinyApp(ui = Alert(severity = "info", "This is an Alert)))
+runApp(shinyApp(ui = Alert(severity = "info", "This is an Alert"), server = \(...){}))
 ```
 
 Additionally, shiny input bindings have been added to all components with the ".shinyInput" suffix.
