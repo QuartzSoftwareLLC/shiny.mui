@@ -1,4 +1,4 @@
-<div style="display: flex; justify-content: center;"><img href="https://quartzsoftware.com" src="https://quartzsoftware-assets.s3.amazonaws.com/logo.svg" height="100"/></div>
+<div style="display: flex; justify-content: center;"><img href="https://quartzsoftware.com" src="https://quartzsoftware-assets.s3.amazonaws.com/logo.svg" height="100"/><img src="./logo.svg" height="100"/></div>
 
 # shiny.mui
 <!-- badges: start -->
