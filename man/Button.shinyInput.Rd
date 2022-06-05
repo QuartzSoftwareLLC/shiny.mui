@@ -17,7 +17,7 @@ Visit the documentation at https://mui.com/api/Button/ for more information.
 \examples{
 library(shiny.mui)
 library(shiny)
-library(magrittr)
+
 
 component_example(tagList(
   Button.shinyInput("button1", "Text", variant="text"),

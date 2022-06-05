@@ -19,7 +19,7 @@ Visit the documentation at https://mui.com/api/Switch/ for more information.
 \examples{
 library(shiny.mui)
 library(shiny)
-library(magrittr)
+
 
 
 if (interactive()) {

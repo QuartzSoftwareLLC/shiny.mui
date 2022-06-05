@@ -23,7 +23,7 @@ Visit the documentation at https://mui.com/api/Autocomplete/ for more informatio
 \examples{
 library(shiny.mui)
 library(shiny)
-library(magrittr)
+
 
 
 if (interactive()) {

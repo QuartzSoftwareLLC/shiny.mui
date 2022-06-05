@@ -20,7 +20,7 @@ Slider
 \examples{
 library(shiny.mui)
 library(shiny)
-library(magrittr)
+
 
 
 if (interactive()) {

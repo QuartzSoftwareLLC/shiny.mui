@@ -2,7 +2,7 @@ library(shiny.mui)
 library(shiny)
 library(purrr)
 data(mtcars)
-library(magrittr)
+
 
 data <- mtcars
 data$id <- 1:nrow(data)
