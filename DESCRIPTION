@@ -10,7 +10,6 @@ URL: https://github.com/QuartzSoftwareLLC/shiny.mui
 Imports:
     shiny.react,
     htmltools,
-    magrittr,
     shiny
 Remotes: Appsilon/shiny.react
 BugReports: https://github.com/QuartzSoftwareLLC/shiny.mui/issues

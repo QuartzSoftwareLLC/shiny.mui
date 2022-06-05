@@ -84,6 +84,17 @@ Switch.shinyInput <- input("Switch")
 #' Visit the documentation at https://mui.com/api/Autocomplete/ for more information.
 Autocomplete.shinyInput <- input("Autocomplete")
 
+#' Accordion
+#' @export
+#' @md
+#' @param ... args to pass to element
+#' @param inputId the shiny input id
+#' @param value the default value of the element
+#' @description
+#' Visit the documentation at https://mui.com/api/Autocomplete/ for more information.
+Autocomplete.shinyInput <- input("Autocomplete", defaultValue = T)
+
+
 #' Slider
 #' @export
 #' @example inst/examples/Slider.R

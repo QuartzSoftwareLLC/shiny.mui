@@ -5,6 +5,8 @@
 \title{Autocomplete}
 \usage{
 Autocomplete.shinyInput(inputId, ..., value = defaultValue)
+
+Autocomplete.shinyInput(inputId, ..., value = defaultValue)
 }
 \arguments{
 \item{inputId}{the shiny input id}
@@ -14,6 +16,8 @@ Autocomplete.shinyInput(inputId, ..., value = defaultValue)
 \item{value}{the default value of the element}
 }
 \description{
+Visit the documentation at https://mui.com/api/Autocomplete/ for more information.
+
 Visit the documentation at https://mui.com/api/Autocomplete/ for more information.
 }
 \examples{
