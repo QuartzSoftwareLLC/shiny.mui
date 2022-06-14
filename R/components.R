@@ -380,6 +380,14 @@ Grow <- component("Grow")
 #' Visit the documentation at https://mui.com/api/Hidden/ for more information.
 Hidden <- component("Hidden")
 
+#' Button
+#' @export
+#' @md
+#' @param ... args to pass to element
+#' @description
+#' Visit the documentation at https://mui.com/api/Button/ for more information.
+Button <- component("Button")
+
 # #' Icon
 # #' @export
 # #' @md
