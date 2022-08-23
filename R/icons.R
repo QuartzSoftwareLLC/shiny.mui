@@ -16,7 +16,7 @@ icon <- function(name, module = "@mui/icons-material") {
 
 #' BartChartIcon
 #' @param ... args to pass to element
-#'
+#' @export
 BarChartIcon <- icon("BarChartIcon")
 
 #' BartChartIcon
